@@ -65,11 +65,11 @@ endif
 #test
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy/new/public
+    device/qcom/sepolicy/test/public
 
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
-    device/qcom/sepolicy/new/private
+    device/qcom/sepolicy/test/private
 
 BOARD_SEPOLICY_DIRS += \
-    device/qcom/sepolicy/new/dynamic \
-    device/qcom/sepolicy/new/vendor
+    device/qcom/sepolicy/test/dynamic \
+    device/qcom/sepolicy/test/vendor
