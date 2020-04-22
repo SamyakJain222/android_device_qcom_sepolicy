@@ -61,3 +61,15 @@ ifneq (,$(filter sdm845 sdm710, $(TARGET_BOARD_PLATFORM)))
             device/qcom/sepolicy/legacy/vendor/test
     endif
 endif
+
+#test
+
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/qcom/sepolicy/new/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/qcom/sepolicy/new/private
+
+BOARD_SEPOLICY_DIRS += \
+    device/qcom/sepolicy/new/dynamic \
+    device/qcom/sepolicy/new/vendor
